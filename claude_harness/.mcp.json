@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "snowflake-tools": {
+      "command": ".venv/bin/python",
+      "args": ["src/mcp_server.py"],
+      "env": {
+        "CCSQL_DB_PATH": "spider2-snow",
+        "CCSQL_DB_TYPE": "snowflake"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+fastmcp>=3.2
+snowflake-connector-python>=3.0
+sqlglot>=30
+pandas>=2.0
+numpy>=2.0

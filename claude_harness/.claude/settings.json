@@ -1,0 +1,43 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__snowflake-tools__(query_database|python_interpreter)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .claude/hooks/require_writing.py",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .claude/hooks/require_revision.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 .claude/hooks/mark_revision.py",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "python3 .claude/hooks/mark_writing.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

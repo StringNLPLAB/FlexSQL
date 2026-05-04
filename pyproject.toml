@@ -1,0 +1,21 @@
+[project]
+name = "testsql"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.0"
+dependencies = [
+    "chardet>=7.4.3",
+    "cloudpickle>=3.1.2",
+    "numpy==2.1.3",
+    "openai==1.99.4",
+    "openai-harmony==0.0.8",
+    "pandas==2.2.3",
+    "parso>=0.8.6",
+    "python-dateutil>=2.9.0.post0",
+    "snowflake-connector-python>=4.4.0",
+    "sqlglot==28.10.1",
+    "vllm==0.13.0",
+    "transformers==4.57.6",
+    "geopandas==1.1.2"
+]
