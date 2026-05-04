@@ -22,7 +22,7 @@ uv pip install -r requirements.txt
 
 ### 3. Download the Spider2-Snow data
 
-Download `spider2-snow.zip` from [Google Drive](https://drive.google.com/file/d/1v5N3iFhQpzkAVrpas_UhG4sKqf74Hh12/view?usp=sharing), then unzip it at the project root:
+Download `spider2-snow.zip` from [Google Drive](https://drive.google.com/file/d/1sgc-oFqkETkLoJiu90SH1RJI70nTbRL8/view?usp=share_link), then unzip it at the project root:
 
 ```bash
 unzip spider2-snow.zip -d spider2-snow
