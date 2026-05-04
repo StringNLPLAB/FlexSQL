@@ -90,7 +90,7 @@ python src/main_slurm_laucher.py \
   --num_folds 600 \
   --vllm_model <path-to-your-model> \
   --gpu_name l40s \
-  --vllm_server_extra_args "-tp 2 --enable-auto-tool-choice --tool-call-parser openai --gpu-memory-utilization 0.8" \
+  --vllm_server_extra_args "-tp 4 --enable-auto-tool-choice --tool-call-parser openai --gpu-memory-utilization 0.8" \
   --sbatch_args $'#SBATCH --time=3:00:00' \
   --base_dir inference_res \
   --slurm_log_dir gpt-oss-120b-logs \
