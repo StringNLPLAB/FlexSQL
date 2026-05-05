@@ -166,6 +166,14 @@ A Claude Code variant of this pipeline — packaged as [Claude Code skills](http
 
 
 ```bibtex
-% Citation TBD
+@misc{pham2026flexsql,
+      title={FlexSQL: Flexible Exploration and Execution Make Better Text-to-SQL Agents}, 
+      author={Quang Hieu Pham and Yang He and Ping Nie and Canwen Xu and Davood Rafiei and Yuepeng Wang and Xi Ye and Jocelyn Qiaochu Chen},
+      year={2026},
+      eprint={2605.02815},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.02815}, 
+}
 ```
 
